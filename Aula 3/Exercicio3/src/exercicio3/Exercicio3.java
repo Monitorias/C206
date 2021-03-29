@@ -10,17 +10,20 @@ public class Exercicio3 {
         Scanner input = new Scanner(System.in);
         
         int op;
-        
-        System.out.println("Digite o primeiro número: ");
-        float n1 = input.nextFloat();
-        
-        System.out.println("Digite o segundo número: ");
-        float n2 = input.nextFloat();
+                
+        float n1;
+        float n2;
         
         boolean flag = true;
         
         while(flag){
             
+            System.out.println("Digite o primeiro número: ");
+            n1 = input.nextFloat();
+            
+            System.out.println("Digite o segundo número: ");
+            n2 = input.nextFloat();
+
             System.out.println("**ESCOLHA UMA OPÇÃO**");
             System.out.println("1 - SOMA");
             System.out.println("2 - SUBTRAÇÃO");
